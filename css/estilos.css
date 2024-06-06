@@ -143,24 +143,24 @@ body {
     content: url(../img/menu/Avatar_Alura.png);
 }
 
-.icone__gaveta::before {
-    content: url(../img/menu/Avatar_Gaveta.png);
+.icone__ricardo::before {
+    content: url(../img/menu/Avatar_Ricardo.jpg);
 }
 
-.icone__ballerini::before {
-    content: url(../img/menu/Avatar_Rafa.png);
+.icone__fireship::before {
+    content: url(../img/menu/Avatar_Fireship.png);
 }
 
-.icone__iamarino::before {
-    content: url(../img/menu/Avatar_Atila.png);
+.icone__montano::before {
+    content: url(../img/menu/Avatar_Montano.png);
 }
 
-.icone__souto::before {
-    content: url(../img/menu/Avatar_Souto.png);
+.icone__codigo-fonte::before {
+    content: url(../img/menu/Avatar_Codigo_Fonte.png);
 }
 
-.icone__nerd::before {
-    content: url(../img/menu/Avatar_Jovem_Nerd.png);
+.icone__battisti::before {
+    content: url(../img/menu/Avatar_Battisti.png);
 }
 
 .icone__deschamps::before {

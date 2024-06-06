@@ -1,4 +1,3 @@
-
 /* CABEÇALHO */
 
 .cabecalho__container {
@@ -13,6 +12,82 @@
     display: none;
 }
 
+/* MENU LATERAL */
+
+.menu__container {
+    position: fixed;
+    bottom: 0%;
+    height: 74px;
+    width: 100%;
+}
+
+.menu__lista {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.menu__lista li {
+    align-self: center;
+}
+
+.menu__lista:nth-child(2),
+.menu__lista:nth-child(3),
+.menu__lista:nth-child(4) {
+    display: none;
+}
+
+.menu__itens {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+@media (min-width: 834px) {
+    .menu__container {
+        left: 0;
+        width: 74px;
+        height: auto;
+        top: 80px;
+    }
+
+    .menu__lista {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 15px;
+        gap: 33px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .menu__container {
+        width: 239px;
+        overflow: scroll;
+    }
+
+    .menu__lista {
+        height: auto; 
+        padding: 20px 17px 20px 15px;
+        gap: 15px;
+    }
+
+    .menu__lista:nth-child(2),
+    .menu__lista:nth-child(3),
+    .menu__lista:nth-child(4) {
+        display: flex;
+    }
+
+    .menu__itens {
+        flex-direction: row;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .menu__lista:nth-child(3) {
+        flex-direction: column-reverse;
+    }
+}
+
 /* SUPERIOR SEÇÃO */
 
 .superior__secao__container {
@@ -21,6 +96,13 @@
     white-space: nowrap;
     overflow: scroll;
     gap: 15px;
+}
+
+/* VIDEOS */
+
+.videos__item {
+    height: 303px;
+    width: 280px;
 }
 
 /* RODAPÉ */
@@ -44,7 +126,7 @@
 }
 
 @media (min-width: 834px) {
-    
+
     /* CABEÇALHO */
 
     .cabecalho__pesquisar__item {
@@ -57,4 +139,3 @@
         justify-content: space-between;
     }
 }
-
