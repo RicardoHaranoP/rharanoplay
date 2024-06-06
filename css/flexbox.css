@@ -1,4 +1,6 @@
 
+/* CABEÇALHO */
+
 .cabecalho__container {
     display: flex;
     justify-content: space-between;
@@ -11,8 +13,48 @@
     display: none;
 }
 
+/* SUPERIOR SEÇÃO */
+
+.superior__secao__container {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: scroll;
+    gap: 15px;
+}
+
+/* RODAPÉ */
+
+.rodape__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.link__redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icones__redes {
+    width: 3%;
+    margin-right: 5px;
+}
+
 @media (min-width: 834px) {
+    
+    /* CABEÇALHO */
+
     .cabecalho__pesquisar__item {
         display: block;
     }
+
+    /* RODAPÉ */
+
+    .rodape__container {
+        justify-content: space-between;
+    }
 }
+
